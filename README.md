@@ -71,7 +71,3 @@ Use the same detector list for the synthetic and real manifests when they will
 be compared. Add or remove model configurations before plan creation; the plan
 freezes the chosen models, sources, text, attack parameters, and random seeds.
 ```
-
-Do not force-add generated manifests or audio. `batched_generation.json` and
-`batched_real_generation.json` can be hundreds of megabytes and must remain
-outside Git.
