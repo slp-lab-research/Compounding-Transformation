@@ -70,16 +70,6 @@ python attack_batched_real_sources.py \
 Use the same detector list for the synthetic and real manifests when they will
 be compared. Add or remove model configurations before plan creation; the plan
 freezes the chosen models, sources, text, attack parameters, and random seeds.
-
-## GitHub preparation
-
-Before pushing, inspect the staged files:
-
-```bash
-git init
-git add .
-git status --short
-git commit -m "Add batched fake and real audio generation workflow"
 ```
 
 Do not force-add generated manifests or audio. `batched_generation.json` and
